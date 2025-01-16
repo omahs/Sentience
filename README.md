@@ -135,7 +135,7 @@ Proof of Sentience SDKs.
 
 Underlying TEE architecture that powers Proof of Sentience.
 
-1. [enclave](https://github.com/galadriel-ai/sentience/tree/main/verified-inference/enclave) - this where the enclave is built and run
+1. [enclave](https://github.com/galadriel-ai/sentience/tree/main/verified-inference/enclave) - this is where the enclave is built and run
 2. [host](https://github.com/galadriel-ai/sentience/tree/main/verified-inference/host) - proxies HTTP requests to the API running in the enclave
 3. [solana-attestation-contract](https://github.com/galadriel-ai/sentience/tree/main/verified-inference/solana-attestation-contract) - posts proofs of inference responses to Solana
 4. [verify](https://github.com/galadriel-ai/sentience/tree/main/verified-inference/verify) - instructions and code for verifying the TEE
